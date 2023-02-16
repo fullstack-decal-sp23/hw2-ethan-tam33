@@ -1,4 +1,7 @@
 /* BEGIN SETUP (you will not need to use these) */
+
+
+
 #intro {
   color: rgb(0, 0, 0);
   text-align: center;
@@ -14,7 +17,22 @@
 h2 {
   font-size: medium;
   font-weight: 200;
+
 }
+
+/* #test {
+  color:green;
+}
+
+#test:hover {
+  color:gold;
+} */
+
+.red-text {
+  color:green;
+}
+
+
 /* END SETUP */
 
 /* Classes that you might find useful */
@@ -25,6 +43,7 @@ h2 {
   width: 500px;
   border-style: solid;
   margin-bottom: 5rem;
+  margin: 5px;
 }
 
 .twovert {
@@ -91,18 +110,39 @@ h2 {
   background-color: #000;
 }
 
+.red {
+  background-color: red;
+}
+
+.threevert {
+  height: 100px;
+}
+
+.light-blue {
+  background-color: blue;
+}
+
+#white {
+  background-color: white;
+}
+
+
+
 /* BEGIN QUESTION 2 */
 
 .thailand-red {
-  /* TODO */
+  background-color: #B5002D;
+  height: 40px;
 }
 
 .thailand-white {
-  /* TODO */
+  background-color: white;
+  height: 60px;
 }
 
 .thailand-blue {
-  /* TODO */
+  background-color: #2E2A4C;
+  height: 100px;
 }
 
 /* END QUESTION 2 */
@@ -111,6 +151,7 @@ h2 {
 
 .romania-blue {
   background-color: #002c84;
+  
 }
 
 .romania-yellow {
@@ -129,11 +170,19 @@ h2 {
 }
 
 .mexico-img {
-  /* TODO */
+  background: url(eagle.png) no-repeat center;
+  background-size: 80%;
 }
 
 .mexico-red {
   background-color: #ce1126;
+}
+
+
+h2:hover {
+  color: gold !important;
+  font-size: 150%;
+  background-color: red;
 }
 
 /* QUESTION 6 */
@@ -161,5 +210,6 @@ h2 {
   box-sizing: border-box;
   background-color: lightblue;
   background-clip: content-box, padding-box;
+  padding: 60px;
   /* TODO */
 }
